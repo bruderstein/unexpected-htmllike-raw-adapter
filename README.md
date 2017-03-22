@@ -1,5 +1,7 @@
 # unexpected-htmllike-raw-adapter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bruderstein/unexpected-htmllike-raw-adapter.svg)](https://greenkeeper.io/)
+
 This is the raw JSON adapter for [unexpected-htmllike](https://github.com/bruderstein/unexpected-htmllike)
 
 If expects and creates objects with `type`, `props` and `children` keys.
