@@ -1,6 +1,6 @@
 {
   "name": "unexpected-htmllike-raw-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adapter for unexpected-htmllike for conversion to an intermediate format used for snapshotting",
   "author": {
     "name": "Dave Brotherstone",
@@ -9,12 +9,9 @@
   "scripts": {
     "build": "babel src -d lib --source-maps true",
     "prepublish": "npm run build",
-    "test": "mocha --compilers js:babel/register --compilers jsx:babel/register src/tests/*.spec.jsx"
+    "test": "mocha --compilers js:babel/register --compilers jsx:babel/register src/tests/*.spec.js"
   },
   "main": "lib/index.js",
-  "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0"
-  },
   "devDependencies": {
     "babel": "^5.8.29",
     "immutable": "^3.7.6",
